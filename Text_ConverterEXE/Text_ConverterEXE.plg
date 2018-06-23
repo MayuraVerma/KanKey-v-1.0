@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Text_ConverterEXE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Text_ConverterEXE.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\kannada\ASCII\WINDOWS\Dev\Text_ConverterEXE\Text_ConverterEXEDlg.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+..\KuvempuEXE\Text_ConverterDLL.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\KuvempuEXE/Text_ConverterEXE.pdb" /debug /machine:I386 /out:"..\KuvempuEXE/Text_ConverterEXE.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\Text_ConverterEXE.obj
+.\Debug\Text_ConverterEXEDlg.obj
+.\Debug\Text_ConverterEXE.res
+]
+Creating command line "link.exe @F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSPF3.tmp"
+<h3>Output Window</h3>
+Compiling...
+Text_ConverterEXEDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"..\KuvempuEXE/Text_ConverterEXE.bsc"  .\Debug\StdAfx.sbr .\Debug\Text_ConverterEXE.sbr .\Debug\Text_ConverterEXEDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Text_ConverterEXE.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

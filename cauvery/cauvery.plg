@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cauvery - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/cauvery.res" /d "_DEBUG" /d "_AFXDLL" "\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc"" 
+Creating temporary file "C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP209.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/cauvery.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP209.tmp" 
+Creating temporary file "C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP20A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/cauvery.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP20A.tmp" 
+Creating temporary file "C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP20B.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\KuvempuEXE/cauvery.pdb" /debug /machine:I386 /def:".\cauvery.def" /out:"..\KuvempuEXE/cauvery.dll" /implib:"..\KuvempuEXE/cauvery.lib" /pdbtype:sept 
+.\Debug\cauvery.obj
+.\Debug\StdAfx.obj
+.\Debug\cauvery.res
+]
+Creating command line "link.exe @C:\DOCUME~1\kuvempu\LOCALS~1\Temp\RSP20B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (20): error RC2144 : PRIMARY LANGUAGE ID not a number
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (68): error RC2135 : file not found: VS_VERSION_INFO
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (69): error RC2135 : file not found: 1
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (70): error RC2135 : file not found: 2
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (71): error RC2135 : file not found: 0x3fL
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (77): error RC2135 : file not found: FILEOS
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (78): error RC2135 : file not found: 0x2L
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (81): error RC2164 : unexpected value in RCDATA
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (83): error RC2135 : file not found: BLOCK
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (85): error RC2135 : file not found: VALUE
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (86): error RC2135 : file not found: VALUE
+
+
+\\192.168.1.1\kannada\ASCII\WINDOWS\Dev\cauvery\cauvery.rc (87): error RC2135 : file not found: VALUE
+
+
+
+
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+cauvery.dll - 12 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
